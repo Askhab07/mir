@@ -13,10 +13,10 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/report" element={<Report />} />
-          <Route path="/users" element={<Users />} />
-          <Route path="/users/:id" element={<Users />} />
-          <Route path="/users/add" element={<AddUsers />} />
+          <Route path="/mir/report" element={<Report />} />
+          <Route path="/mir/users" element={<Users />} />
+          <Route path="/mir/users/:id" element={<Users />} />
+          <Route path="/mir/users/add" element={<AddUsers />} />
           <Route path="*" element={<Report />} />
         </Routes>
         {!shouldHideBottomNav && <NavBar />}
